@@ -7,7 +7,7 @@ import Hero from '../components/Hero.vue'
 
 <template>
     <div class="HomeHeader">
-        <Header />
+        <Header/>
     </div>
 </template>
 
