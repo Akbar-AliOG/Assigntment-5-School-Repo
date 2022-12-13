@@ -1,16 +1,15 @@
 <script setup>
-import FooterComp from '../components/FooterComp.vue'
-import Header from '../components/Header.vue'
-import Hero from '../components/Hero.vue'
 
 </script>
 
 <template>
-    <div class="HomeHeader">
-        <Header/>
+    <div class="main-container">
+        <h1>Welcome to Blockfuster Corporations!</h1>
+        <RouterLink to="/login" custom v-slot="{ navigate }">
+    <button @click="navigate" role="link">Login</button>
+</RouterLink>
     </div>
 </template>
 
 <style scoped>
-
 </style>
