@@ -1,4 +1,7 @@
-<script setup></script>
+<script setup>
+
+
+</script>
 
 <template>
   <div class="app-container">
@@ -7,14 +10,7 @@
 </template>
 
 <style scoped>
-/* *,
-::before,
-::after {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  color: purple;
+body{
   background-color: black;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-} */
+}
 </style>

@@ -6,11 +6,19 @@ const username = ref("");
 const password = ref("");
 const error = ref(false);
 const login = () => {
+<<<<<<< HEAD
 //   if (username.value === "tmdb" && password.value === "movies") {
     router.push("/test");
 //   } else {
 //     error.value = true;
 //   }
+=======
+  if (username.value === "tmdb" && password.value === "movies") {
+    router.push("/purchase");
+  } else {
+    error.value = true;
+  }
+>>>>>>> b63a16896ba5165645881778203183b901c621ff
 };
 </script>
 
@@ -37,9 +45,12 @@ const login = () => {
   width: 100vw;
   height: 100vh;
   font-size: 4rem;
+<<<<<<< HEAD
   background-color: rgb(239, 32, 13);
   padding: 0%;
   margin: 0;
+=======
+>>>>>>> b63a16896ba5165645881778203183b901c621ff
 }
 form {
   display: flex;

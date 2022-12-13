@@ -1,6 +1,10 @@
 <script setup>
 import { ref } from 'vue';
+<<<<<<< HEAD
 import SiteModal from './SiteModaltesting.vue';
+=======
+import SiteModal from '../components/SiteModal.vue';
+>>>>>>> b63a16896ba5165645881778203183b901c621ff
 
 const showModal = ref(false);
 const selectedId = ref(0);
